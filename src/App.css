@@ -7,10 +7,8 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
 }
 
 .App-header {
@@ -36,3 +34,22 @@
     transform: rotate(360deg);
   }
 }
+
+.status-dot {
+  width: 10px; /* Tamaño del punto */
+  height: 10px;
+  border-radius: 50%; /* Forma circular */
+  display: inline-block;
+}
+.bg-green {
+  background-color: #28a745; /* Verde */
+}
+.bg-red {
+  background-color: #dc3545; /* Rojo */
+}
+.bg-gray {
+  background-color: gray;
+}
+
+
+
